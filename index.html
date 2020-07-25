@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>todo app</title>
+</head>
+<style>
+
+    body{
+        text-align: center;
+        background-color: aqua;
+        margin-top:100px ;
+    }
+    ::placeholder{
+        color: white;
+    }
+    
+</style>
+<body>
+    <h1 style="color:rgb(99, 95, 88); ">MY FIRST TODO APP</h1>
+<div>
+    <input style="background-color:rgb(99, 95, 88) ; color: whitesmoke; font-size: large;" class="simple-form" placeholder="Enter todo" type="text" id="todo-item" >
+    <button onclick="addTodo()"class="myButton">ADD ITEM</button>
+    <button onclick="deleteButton()"class="myButton"> DELETE BUTTON</button>
+
+</div>
+<div>
+<ul id="list"class="list-items">
+        
+
+                <!-- <li class="items"><span id="number"></span>
+                  
+                </li>  -->
+</div>
+
+
+
+
+
+
+<script src="app.js"></script>
+
+</body>
+</html>
